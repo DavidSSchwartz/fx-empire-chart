@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin-bottom: 1em;
+}
+
+.tab {
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+  font-size: 1em;
+}
+
+.tab:hover {
+  border-bottom: 1px solid cornflowerblue;
+}
+
+.tab:nth-child(2) {
+  margin-right: 1em;
+  margin-left: 1em;
+}
